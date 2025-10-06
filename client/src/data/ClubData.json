@@ -1,0 +1,57 @@
+{"Clubs":[
+  {
+    "clubID": 1,
+    "clubName": "Robotics",
+    "clubImage": "./Assets/Images/Club1.jpeg",
+    "MeetDay": ["M", "W"],
+    "MeetTime": "6-7",
+    "clubDesc": "We are a group of people passionate about robotics. Founded in 2022, we are the largest student-run robotics organization at WashU. Join a thriving community – our WURC family has grown to include over 100 members! In addition to self-driven projects and robotics competitions, we foster partnerships with innovative robotics startups and companies.",
+    "Industry": "Tech",
+    "School": "Engineering",
+    "Major": "CS"
+  },
+  {
+    "clubID": 2,
+    "clubName": "Armour Magazine",
+    "clubImage": "./Assets/Images/Club2.jpeg",
+    "MeetDay": ["T", "Th"],
+    "MeetTime": "10-11",
+    "clubDesc": "Armour Magazine is Washington University in St. Louis’s premier student-run fashion and lifestyle publication. Blending editorial storytelling with creative direction, Armour showcases student talent in fashion design, photography, writing, and visual arts—celebrating bold style, identity, and culture on campus and beyond.",
+    "Industry": "Arts/Literature",
+    "School": "Arts",
+    "Major": "Arts"
+  },
+  {
+    "clubID": 3,
+    "clubName": "PL4Y KPOP Dance Group",
+    "clubImage": "./Assets/Images/Club3.png",
+    "MeetDay": ["W"],
+    "MeetTime": "1-2",
+    "clubDesc": "PL4Y is Washington University in St. Louis’s student-led K-pop dance group, dedicated to celebrating Korean pop culture through high-energy performances and choreography. Open to all skill levels, PL4Y brings together a vibrant community of dancers who share a passion for movement, music, and creative expression.",
+    "Industry": "Arts/Literature",
+    "School": "Arts",
+    "Major": "Literature"
+  },
+  {
+    "clubID": 4,
+    "clubName": "Alpha Kappa Psi Professional Fraternity",
+    "clubImage": "./Assets/Images/Club4.jpeg",
+    "MeetDay": ["T", "Th"],
+    "MeetTime": "10-11",
+    "clubDesc": "Alpha Kappa Psi is Washington University in St. Louis’s premier co-ed professional business fraternity, dedicated to developing principled business leaders. Through professional development, mentorship, and a strong brotherhood, AKΨ empowers students across all majors to grow their leadership, networking, and career-building skills in a collaborative and driven community.",
+    "Industry": "Tech",
+    "School": "Engineering",
+    "Major": "CS"
+  },
+  {
+    "clubID": 5,
+    "clubName": "Coding Club",
+    "MeetDay": ["S", "Sun"],
+    "MeetTime": "12-1",
+    "clubDesc": "The Coding Club is a hub for tech enthusiasts to sharpen their programming skills through collaborative projects, coding competitions, and hackathons. We cover topics like web development, machine learning, and cybersecurity, offering mentorship and networking opportunities with industry professionals.",
+    "Industry": "Tech",
+    "School": "Engineering",
+    "Major": "CS"
+  }
+]
+}

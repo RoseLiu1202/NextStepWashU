@@ -1,0 +1,62 @@
+{
+  "Internships":[
+    {
+      "internshipID": 1,
+      "internshipName": "Capital One - Software Engineering Internship",
+      "internshipImage": " ./Assets/Images/InternshipImage1.png",
+      "pay": "None",
+      "skills": ["UX Design"],
+      "qualities": ["Minimum 2 years experience"],
+      "internshipDesc": "At Capital One, our Software Engineering Internship is designed to give rising technologists the tools, mentorship, and hands-on experience needed to launch a successful career in software development. Over the course of 10 weeks, interns will work in small, agile teams alongside experienced engineers to build and deploy real solutions that impact millions of customers.",
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "internshipID": 2,
+      "internshipName": "Adobe - Graphic Design Internship",
+      "internshipImage": " ./Assets/Images/InternshipImage2.png",
+      "pay": "12/hour",
+      "skills": ["Science, Research"],
+      "qualities": ["No Experience Neccessary"],
+      "internshipDesc": "Adobe’s Graphic Design Internship offers an opportunity to work with one of the world’s leading creative software companies and gain hands-on experience in a fast-paced, collaborative environment. As a design intern, you’ll contribute to real-world projects alongside a team of passionate creatives, helping to shape the visual identity of Adobe’s marketing campaigns, digital experiences, and product launches.",
+      "Industry": "Science",
+      "School": "Science",
+      "Major": "Science"
+    },
+    {
+      "internshipID": 3,
+      "internshipName": "Mastercard - Business Operation Internship",
+      "internshipImage": " ./Assets/Images/InternshipImage3.png",
+      "pay": "12/hour",
+      "skills": ["Science, Research"],
+      "qualities": ["No Experience Neccessary"],
+      "internshipDesc": "The Mastercard Business Operations Internship is a unique opportunity to explore the inner workings of a global technology company at the forefront of payments innovation. As an intern, you’ll work within cross-functional teams to optimize processes, analyze performance, and contribute to high-impact strategic initiatives that drive Mastercard’s global operations.",
+      "Industry": "Science",
+      "School": "Science",
+      "Major": "Science"
+    },
+    {
+      "internshipID": 4,
+      "internshipName": "Meta - AL/ML Engineer Internship",
+      "internshipImage": " ./Assets/Images/InternshipImage4.png",
+      "pay": "15/hr",
+      "skills": ["Literature"],
+      "qualities": ["No Experience Neccessary"],
+      "internshipDesc": "Join Meta’s AI/ML Engineer Internship to work at the cutting edge of artificial intelligence and machine learning. As an intern, you’ll collaborate with world-class researchers and engineers to solve real-world problems at scale—from content understanding and recommendation systems to generative AI and computer vision. This is a unique opportunity to shape the future of AI while learning from the teams behind Meta’s platforms like Facebook, Instagram, and Reality Labs.",
+      "Industry": "Arts/Literature",
+      "School": "Arts",
+      "Major": "Arts"
+    },
+    {
+      "internshipID": 5,
+      "internshipName": "Front End Developer Intern",
+      "pay": "25/hour",
+      "skills": ["UX Design"],
+      "qualities": ["No Experience Neccessary"],
+      "internshipDesc": "Jumpstart your tech career with this competitive Front End Developer Internship! You'll build responsive web applications, collaborate with cross-functional teams, and receive training in cutting-edge frameworks. Ideal for coding bootcamp grads or CS students seeking real-world experience.",
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    }
+  ]}

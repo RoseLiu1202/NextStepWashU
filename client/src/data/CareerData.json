@@ -1,0 +1,193 @@
+{
+    "Careers":[
+        {
+            "careerID": 1,
+            "careerImg": "../../public/images/Career/ComputerScience.png",
+            "careerName": "Software Engineer",
+            "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps...",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 2,
+            "careerImg": "../../public/images/Career/DataScience.jpeg",
+            "careerName": "Data Scientist",
+            "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 3,
+            "careerImg": "../../public/images/Career/Crypto.jpeg",
+            "careerName": "Cybersecurity Analyst",
+            "careerDesc": "Cybersecurity analysts protect systems and networks from cyber threats by identifying vulnerabilities and implementing security measures.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 4,
+            "careerImg": "../../public/images/Career/Business3.jpeg",
+            "careerName": "AI/ML Engineer",
+            "careerDesc": "AI/ML engineers develop artificial intelligence models and machine learning algorithms to automate tasks and improve decision-making.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 5,
+            "careerImg": "../../public/images/Career/Math.jpeg",
+            "careerName": "DevOps Engineer",
+            "careerDesc": "DevOps engineers streamline software development and deployment by automating infrastructure and improving collaboration between teams.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Software Engineering"
+        },
+        {
+            "careerID": 6,
+            "careerImg": "../../public/images/Career//Business2.jpeg",
+            "careerName": "Game Developer",
+            "careerDesc": "Game developers design and program video games, working on gameplay mechanics, graphics, and user experience.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Game Design"
+        },
+        {
+            "careerID": 7,
+            "careerImg": "../../public/images/Career/Art.jpeg",
+            "careerName": "Cloud Architect",
+            "careerDesc": "Cloud architects design and manage cloud computing strategies, ensuring scalability, security, and efficiency for businesses.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 8,
+            "careerImg": "../../public/images/Career/Business.jpeg",
+            "careerName": "Robotics Engineer",
+            "careerDesc": "Robotics engineers design and build robotic systems for industries like manufacturing, healthcare, and automation.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Robotics"
+        },
+        {
+            "careerID": 9,
+            "careerImg": "../../public/images/Career/Crypto.jpeg",
+            "careerName": "Blockchain Developer",
+            "careerDesc": "Blockchain developers create decentralized applications (dApps) and smart contracts using blockchain technology.",
+            "Industry": "Technology",
+            "School": "McKelvey School of Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 10,
+            "careerImg": "../../public/images/Career/Business2.jpeg",
+            "careerName": "Quantitative Analyst",
+            "careerDesc": "Quantitative analysts use mathematical models to analyze financial markets and assess risk for investment strategies.",
+            "Industry": "Finance",
+            "School": "Olin Business School",
+            "Major": "Applied Mathematics"
+        },
+        {
+            "careerID": 11,
+            "careerImg": "../../public/images/Career/Math.jpeg",
+            "careerName": "Statistician",
+            "careerDesc": "Statisticians collect, analyze, and interpret data to solve real-world problems in industries like healthcare and economics.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Statistics"
+        },
+        {
+            "careerID": 12,
+            "careerImg": "../../public/images/Career/Business3.jpeg",
+            "careerName": "Actuary",
+            "careerDesc": "Actuaries assess financial risks using mathematics, statistics, and financial theory, primarily in insurance and finance.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Actuarial Science"
+        },
+        {
+            "careerID": 13,
+            "careerImg": "../../public/images/Career/Crypto.jpeg",
+            "careerName": "Cryptographer",
+            "careerDesc": "Cryptographers develop algorithms and encryption methods to secure data and communications from cyber threats.",
+            "Industry": "Tech/Math",
+            "School": "Math",
+            "Major": "Cryptography"
+        },
+        {
+            "careerID": 14,
+            "careerImg": "../../public/images/Career//Writer.jpeg",
+            "careerName": "Technical Writer",
+            "careerDesc": "Technical writers create clear and concise documentation, manuals, and guides for software, hardware, and engineering products.",
+            "Industry": "Tech/Literature",
+            "School": "Arts/Literature",
+            "Major": "Technical Writing"
+        },
+        {
+            "careerID": 15,
+            "careerImg": "../../public/images/Career/Writer2.jpeg",
+            "careerName": "Creative Writer",
+            "careerDesc": "Creative writers craft novels, scripts, poetry, and other literary works, often for publishing, media, or entertainment industries.",
+            "Industry": "Arts/Literature",
+            "School": "College of Arts and Sciences",
+            "Major": "Creative Writing"
+        },
+        {
+            "careerID": 16,
+            "careerImg": "../../public/images/Career/UXDesign.jpeg",
+            "careerName": "UX/UI Designer",
+            "careerDesc": "UX/UI designers create user-friendly and visually appealing interfaces for websites, apps, and digital products.",
+            "Industry": "Tech",
+            "School": "Arts/Design",
+            "Major": "Human-Computer Interaction"
+        },
+        {
+            "careerID": 17,
+            "careerImg": "../../public/images/Career/Art.jpeg",
+            "careerName": "Digital Artist",
+            "careerDesc": "Digital artists use software tools to create illustrations, animations, and visual effects for games, films, and advertising.",
+            "Industry": "Creative Industries",
+            "School": "Sam Fox School of Design",
+            "Major": "Digital Arts"
+        },
+        {
+            "careerID": 18,
+            "careerImg": "../../public/images/Career/Writer3.jpeg",
+            "careerName": "Literary Editor",
+            "careerDesc": "Literary editors review and refine manuscripts, ensuring clarity, coherence, and quality in books, articles, and publications.",
+            "Industry": "Arts/Literature",
+            "School": "Arts/Literature",
+            "Major": "English"
+        },
+        {
+            "careerID": 19,
+            "careerImg": "../../public/images/Career/Math.jpeg",
+            "careerName": "Mathematician",
+            "careerDesc": "Mathematicians research and develop mathematical theories, applying them to solve problems in science, engineering, and economics.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Mathematics"
+        },
+        {
+            "careerID": 20,
+            "careerImg": "../../public/images/Career/DataScience.jpeg",
+            "careerName": "3D Modeler",
+            "careerDesc": "3D modelers create digital representations of objects and characters for animation, gaming, and virtual reality.",
+            "Industry": "Tech/Arts",
+            "School": "Arts/Engineering",
+            "Major": "3D Animation"
+        },
+        {
+            "careerID": 21,
+            "careerImg": "../../public/images/Career/Business.jpeg",
+            "careerName": "Systems Architect",
+            "careerDesc": "Systems architects design and oversee complex IT infrastructures, ensuring efficiency, security, and scalability for organizations.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Computer Engineering"
+        }
+    ]
+}

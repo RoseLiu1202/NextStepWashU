@@ -1,0 +1,58 @@
+{
+  "Posts": [
+    {
+      "id": 1,
+      "title": "A Day in the Life of a Software Engineer at a Tech Startup",
+      "description": "Ever wondered what a software engineer actually does all day? Join me as I code, debug, and attend stand-up meetings at a fast-paced startup! From writing clean code to dealing with unexpected bugs, this is real life as a dev. 👨‍💻 #SoftwareEngineering #TechLife",
+      "videoUrl": "https://www.youtube.com/embed/U3ySiMerum0",
+      "authorPfp": "Assets/Images/ActualProfile1.jpg",
+      "author": "Jaume",
+      "authorTitle": "Software Developer"
+    },
+    {
+      "id": 2,
+      "title": "A Data Scientist's Daily Routine: Python, Pandas & Coffee!",
+      "description": "From analyzing datasets to building machine learning models, follow my day as a data scientist! I'll show you how I clean data, create visualizations, and present insights to stakeholders. Spoiler: There's a lot of coffee involved. ☕📊 #DataScience #AI",
+      "videoUrl": "https://www.youtube.com/embed/GQzMiCBZw6Q",
+      "authorPfp": "Assets/Images/ActualProfile2.jpg",
+      "author": "Sundas Khalid",
+      "authorTitle": "Data Scientist"
+    },
+    {
+      "id": 3,
+      "title": "24 Hours as a DevOps Engineer: CI/CD, Cloud & Chaos!",
+      "description": "Deploying code, managing cloud infrastructure, and fixing outages—this is the life of a DevOps engineer! Watch as I automate deployments, monitor systems, and troubleshoot live issues. Is it stressful? Sometimes. Is it rewarding? Absolutely! 🚀 #DevOps #CloudComputing",
+      "videoUrl": "https://www.youtube.com/embed/EbXUaZLkd-s",
+      "authorPfp": "Assets/Images/ActualProfile3.jpg",
+      "author": "DevOps Shack",
+      "authorTitle": "DevOps Engineer"
+    },
+    {
+      "id": 4,
+      "title": "A Day in the Life of a UX Designer: Wireframes, User Testing & Figma Madness!",
+      "description": "Step into my world as a UX designer! From sketching wireframes to conducting user research and prototyping in Figma, I'll show you how design decisions shape digital experiences. Spoiler: Not all users think like you! 🎨 #UXDesign #DigitalProduct",
+      "videoUrl": "https://www.youtube.com/embed/tJq42Qbh7po",
+      "authorPfp": "Assets/Images/ActualProfile4.jpg",
+      "author": "Sharon Yeun Kim",
+      "authorTitle": "UX Designer"
+    },
+    {
+      "id": 5,
+      "title": "Inside a Cybersecurity Analyst's Day: Hacking, Firewalls & Threat Hunting!",
+      "description": "What does a cybersecurity analyst actually do? I'll take you through my day—monitoring network traffic, investigating breaches, and patching vulnerabilities before hackers strike. It's like being a digital detective! 🔍💻 #CyberSecurity #EthicalHacking",
+      "videoUrl": "https://www.youtube.com/embed/SFsMwPM0Wfw",
+      "authorPfp": "Assets/Images/ActualProfile5.jpg",
+      "author": "Nicole Enesse",
+      "authorTitle": "Cybersecurity Analyst"
+    },
+    {
+      "id": 6,
+      "title": "A Day in the Life of a Machine Learning Engineer (at a *small* startup)",
+      "description": "A day in the life of a machine learning engineer at a small startup from Brisbane, Australia called Nutrify. Nutrify uses computer vision to make learning about and tracking whole foods fun.",
+      "videoUrl": "https://www.youtube.com/embed/O0H2m_r-ZhI?si=-3o-4iOZNZMdJAer",
+      "authorPfp": "Assets/Images/ActualProfile6.jpg",
+      "author": "Daniel Bourke",
+      "authorTitle": "AI Researcher"
+    }
+  ]
+}

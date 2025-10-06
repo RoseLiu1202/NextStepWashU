@@ -1,0 +1,708 @@
+{
+  "Courses": [
+    {
+      "courseID": 1,
+      "courseName": "Introduction to Computer Science",
+      "code": "CSE 101",
+      "description": "An introduction to software concepts and implementation, emphasizing problem solving through abstraction and decomposition. Introduces processes and algorithms, procedural abstraction, data abstraction, encapsulation, and object-oriented programming.",
+      "courseRating": 4.5,
+      "skills": [
+        "Software Engineering"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "10",
+        "12"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 3,
+      "courseName": "Intro to Parallel",
+      "code": "CSE 231",
+      "description": "This course explores concepts, techniques, and design approaches for parallel and concurrent programming. We study how to write programs that make use of multiple processors for responsiveness and that share resources reliably and fairly. ",
+      "courseRating": 5,
+      "skills": [
+        "Parallel Programming"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 4,
+      "courseName": "Intro to Computer Engineering",
+      "code": "CSE 132",
+      "description": "Introduces students to fundamental concepts in the basic operation of computers, ranging from desktops and servers to microcontrollers and handheld devices.",
+      "courseRating": 3.2,
+      "skills": [
+        "Circuitry",
+        "Sensors"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 7,
+      "courseName": "Linear Algebra",
+      "code": "MATH 210",
+      "description": "Introduction to linear algebra, covering vectors, matrices, determinants, eigenvalues, and applications in engineering and data science.",
+      "courseRating": 4.3,
+      "skills": [
+        "Linear Algebra",
+        "Problem Solving"
+      ],
+      "Days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "Times": [
+        "9",
+        "11"
+      ],
+      "Tags": [
+        "High Demand",
+        "STEM Core"
+      ],
+      "Industry": "Mathematics",
+      "School": "Tech/Engineering",
+      "Major": "DataScience"
+    },
+    {
+      "courseID": 8,
+      "courseName": "Constitutional Law",
+      "code": "LAW 301",
+      "description": "Fundamentals of constitutional law, including judicial review, federalism, separation of powers, and individual rights under the U.S. Constitution.",
+      "courseRating": 4.7,
+      "skills": [
+        "Legal Analysis",
+        "Constitutional Law"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "14",
+        "16"
+      ],
+      "Tags": [
+        "Core Requirement",
+        "Highly Rated"
+      ],
+      "Industry": "Law",
+      "School": "Law",
+      "Major": "Lawyer"
+    },
+    {
+      "courseID": 9,
+      "courseName": "Advanced Composition",
+      "code": "WRIT 205",
+      "description": "Advanced composition and rhetoric, focusing on argumentation, research-based writing, and stylistic techniques for persuasive communication.",
+      "courseRating": 4.2,
+      "skills": [
+        "Writing",
+        "Critical Thinking"
+      ],
+      "Days": [
+        "W",
+        "F"
+      ],
+      "Times": [
+        "13",
+        "15"
+      ],
+      "Tags": [
+        "Writing Intensive",
+        "Communication"
+      ],
+      "Industry": "Arts/Literature",
+      "School": "Business",
+      "Major": "Writing"
+    },
+    {
+      "courseID": 27,
+      "courseName": "Intro to HCI",
+      "code": "CSE 256",
+      "description": "Intro to humand-computer interaction",
+      "courseRating": 4.9,
+      "skills": [
+        "UX Design",
+        "Graphic Interfacing"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Career-Focused",
+        "Alumni Approved",
+        "Industry Applications"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 10,
+      "courseName": "Physics",
+      "code": "PHYS 150",
+      "description": "Principles of classical mechanics, thermodynamics, and waves, with applications in engineering and modern physics.",
+      "courseRating": 4.4,
+      "skills": [
+        "Physics",
+        "Problem Solving"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "10",
+        "12"
+      ],
+      "Tags": [
+        "STEM Core",
+        "Lab Component"
+      ],
+      "Industry": "Science",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 11,
+      "courseName": "Data Statistics",
+      "code": "DATA 220",
+      "description": "Introduction to statistical methods and probability theory for data analysis, including hypothesis testing and regression models.",
+      "courseRating": 4.6,
+      "skills": [
+        "Statistics",
+        "Data Analysis"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "11",
+        "13"
+      ],
+      "Tags": [
+        "Data Science Core",
+        "Quantitative"
+      ],
+      "Industry": "Mathematics",
+      "School": "Tech/Engineering",
+      "Major": "DataScience"
+    },
+    {
+      "courseID": 12,
+      "courseName": "British Literature",
+      "code": "ENG 250",
+      "description": "Survey of British literature from the Romantic period to modernism, analyzing key works and their cultural impact.",
+      "courseRating": 4.1,
+      "skills": [
+        "Literary Analysis",
+        "Critical Reading"
+      ],
+      "Days": [
+        "M",
+        "F"
+      ],
+      "Times": [
+        "14",
+        "16"
+      ],
+      "Tags": [
+        "Humanities Elective",
+        "Writing Intensive"
+      ],
+      "Industry": "Arts/Literature",
+      "School": "Business",
+      "Major": "Writing"
+    },
+    {
+      "courseID": 13,
+      "courseName": "Advanced Algorithms",
+      "code": "CSE 347",
+      "description": "Advanced algorithms and data structures, including graph algorithms, dynamic programming, and computational complexity.",
+      "courseRating": 4.8,
+      "skills": [
+        "Algorithms",
+        "Optimization"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "15",
+        "17"
+      ],
+      "Tags": [
+        "Tech Elective",
+        "High Difficulty"
+      ],
+      "Industry": "Tech/Engineering",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 14,
+      "courseName": "IP Law",
+      "code": "LAW 410",
+      "description": "Examination of intellectual property law, including copyright, patents, trademarks, and trade secrets.",
+      "courseRating": 4.5,
+      "skills": [
+        "IP Law",
+        "Legal Research"
+      ],
+      "Days": [
+        "W",
+        "F"
+      ],
+      "Times": [
+        "10",
+        "12"
+      ],
+      "Tags": [
+        "Specialized Law",
+        "Alumni Approved",
+        "Business Law"
+      ],
+      "Industry": "Law",
+      "School": "Law",
+      "Major": "Lawyer"
+    },
+    {
+      "courseID": 15,
+      "courseName": "Organic Chemistry",
+      "code": "CHEM 201",
+      "description": "Organic chemistry fundamentals, including molecular structure, reaction mechanisms, and spectroscopy.",
+      "courseRating": 4.0,
+      "skills": [
+        "Organic Chemistry",
+        "Lab Techniques"
+      ],
+      "Days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "Times": [
+        "8",
+        "10"
+      ],
+      "Tags": [
+        "Pre-Med Track",
+        "STEM Core"
+      ],
+      "Industry": "Science",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 5,
+      "courseName": "Rapid Prototyping and Development",
+      "code": "CSE 330",
+      "description": "This course uses web development as a vehicle for developing skills in rapid prototyping. Students acquire the skills to build a Linux web server in Apache, to write a web site from scratch in PHP, to run an SQL database, to perform scripting in Python, and to develop modern web applications in client-side and server-side JavaScript.",
+      "courseRating": 9999,
+      "skills": [
+        "Something Interesting"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 16,
+      "courseName": "Advanced Calculus",
+      "code": "MATH 310",
+      "description": "Advanced calculus topics, including multivariable functions, partial derivatives, and vector calculus.",
+      "courseRating": 4.4,
+      "skills": [
+        "Calculus",
+        "Mathematical Proofs"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "9",
+        "11"
+      ],
+      "Tags": [
+        "Theoretical Math",
+        "STEM Elective"
+      ],
+      "Industry": "Mathematics",
+      "School": "Tech/Engineering",
+      "Major": "DataScience"
+    },
+    {
+      "courseID": 17,
+      "courseName": "Writing Workshop",
+      "code": "WRIT 310",
+      "description": "Creative writing workshop focusing on fiction and narrative techniques, with peer reviews and instructor feedback.",
+      "courseRating": 4.3,
+      "skills": [
+        "Creative Writing",
+        "Storytelling"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "13",
+        "15"
+      ],
+      "Tags": [
+        "Arts Elective",
+        "Workshop-Based"
+      ],
+      "Industry": "Arts/Literature",
+      "School": "Business",
+      "Major": "Writing"
+    },
+    {
+      "courseID": 18,
+      "courseName": "Circuits",
+      "code": "EE 200",
+      "description": "Fundamentals of electrical circuits, including Ohm's Law, Kirchhoff's Laws, AC/DC analysis, and basic electronics.",
+      "courseRating": 4.2,
+      "skills": [
+        "Circuit Analysis",
+        "Electronics"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "14",
+        "16"
+      ],
+      "Tags": [
+        "Engineering Core",
+        "Alumni Approved",
+        "Lab Required"
+      ],
+      "Industry": "Tech/Engineering",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 19,
+      "courseName": "Criminal Law",
+      "code": "LAW 350",
+      "description": "Criminal law principles, including legal definitions of crimes, defenses, and constitutional protections in criminal proceedings.",
+      "courseRating": 4.6,
+      "skills": [
+        "Criminal Law",
+        "Case Analysis"
+      ],
+      "Days": [
+        "W",
+        "F"
+      ],
+      "Times": [
+        "11",
+        "13"
+      ],
+      "Tags": [
+        "Bar Exam Prep",
+        "Core Law"
+      ],
+      "Industry": "Law",
+      "School": "Law",
+      "Major": "Lawyer"
+    },
+    {
+      "courseID": 20,
+      "courseName": "Biology",
+      "code": "BIO 220",
+      "description": "Cell biology and genetics, covering DNA replication, gene expression, cellular structures, and molecular biology techniques.",
+      "courseRating": 4.3,
+      "skills": [
+        "Molecular Biology",
+        "Lab Skills"
+      ],
+      "Days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "Times": [
+        "12",
+        "14"
+      ],
+      "Tags": [
+        "Pre-Med Core",
+        "Research Focus"
+      ],
+      "Industry": "Science",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 21,
+      "courseName": "Machine Learning",
+      "code": "DATA 410",
+      "description": "Machine learning fundamentals, including supervised and unsupervised learning, neural networks, and model evaluation.",
+      "courseRating": 4.7,
+      "skills": [
+        "Machine Learning",
+        "Python"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "10",
+        "12"
+      ],
+      "Tags": [
+        "AI Specialization",
+        "Advanced"
+      ],
+      "Industry": "Tech/Engineering",
+      "School": "Tech/Engineering",
+      "Major": "DataScience"
+    },
+    {
+      "courseID": 22,
+      "courseName": "World Literature",
+      "code": "LIT 180",
+      "description": "World literature survey, covering major works from ancient epics to contemporary global fiction.",
+      "courseRating": 4.0,
+      "skills": [
+        "Comparative Literature",
+        "Critical Analysis"
+      ],
+      "Days": [
+        "M",
+        "F"
+      ],
+      "Times": [
+        "15",
+        "17"
+      ],
+      "Tags": [
+        "Humanities Core",
+        "Alumni Approved",
+        "Diverse Perspectives"
+      ],
+      "Industry": "Arts/Literature",
+      "School": "Business",
+      "Major": "Writing"
+    },
+    {
+      "courseID": 23,
+      "courseName": "Software Development Lab",
+      "code": "CSE 405",
+      "description": "Software development methodologies, including Agile, Scrum, and DevOps practices for large-scale projects.",
+      "courseRating": 4.5,
+      "skills": [
+        "Software Development",
+        "Project Management"
+      ],
+      "Days": [
+        "W",
+        "F"
+      ],
+      "Times": [
+        "9",
+        "11"
+      ],
+      "Tags": [
+        "Industry-Relevant",
+        "Team-Based"
+      ],
+      "Industry": "Tech/Engineering",
+      "School": "Tech/Engineering",
+      "Major": "Tech/Engineering"
+    },
+    {
+      "courseID": 2,
+      "courseName": "User Centered Design",
+      "code": "CSE 556",
+      "description": "An introduction to user centered design processes. The course covers a variety of HCI techniques for use at different stages in the software development cycle, including techniques that can be used with and without users.",
+      "courseRating": 4.5,
+      "skills": [
+        "UX Design"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    },
+    {
+      "courseID": 24,
+      "courseName": "Contract Law",
+      "code": "LAW 220",
+      "description": "Contract law fundamentals, including formation, breach, remedies, and the Uniform Commercial Code (UCC).",
+      "courseRating": 4.4,
+      "skills": [
+        "Contract Law",
+        "Legal Drafting"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "16",
+        "18"
+      ],
+      "Tags": [
+        "Business Law",
+        "Core Requirement"
+      ],
+      "Industry": "Law",
+      "School": "Law",
+      "Major": "Lawyer"
+    },
+    {
+      "courseID": 25,
+      "courseName": "Probability Theory",
+      "code": "STAT 300",
+      "description": "Probability theory and statistical inference, covering distributions, Bayesian methods, and experimental design.",
+      "courseRating": 4.2,
+      "skills": [
+        "Probability",
+        "Statistical Modeling"
+      ],
+      "Days": [
+        "T",
+        "Th"
+      ],
+      "Times": [
+        "13",
+        "15"
+      ],
+      "Tags": [
+        "Quantitative Core",
+        "Data Science Prep"
+      ],
+      "Industry": "Mathematics",
+      "School": "Tech/Engineering",
+      "Major": "DataScience"
+    },
+    {
+      "courseID": 26,
+      "courseName": "Professional Writing",
+      "code": "WRIT 400",
+      "description": "Professional and technical writing, focusing on reports, proposals, and documentation for business and engineering contexts.",
+      "courseRating": 4.1,
+      "skills": [
+        "Technical Writing",
+        "Business Communication"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "11",
+        "13"
+      ],
+      "Tags": [
+        "Career-Focused",
+        "Industry Applications"
+      ],
+      "Industry": "Arts/Literature",
+      "School": "Business",
+      "Major": "Writing"
+    },
+    {
+      "courseID": 6,
+      "courseName": "Object Oriented Design",
+      "code": "CSE 332",
+      "description": "Intensive focus on practical aspects of designing, implementing and debugging software, using object-oriented, procedural, and generic programming techniques.",
+      "courseRating": 9999,
+      "skills": [
+        "Something Interesting"
+      ],
+      "Days": [
+        "M",
+        "W"
+      ],
+      "Times": [
+        "10",
+        "11"
+      ],
+      "Tags": [
+        "Recommended for you",
+        "Alumni Approved"
+      ],
+      "Industry": "Tech",
+      "School": "Engineering",
+      "Major": "CS"
+    }
+  ]
+}
