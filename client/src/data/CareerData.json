@@ -1,193 +1,524 @@
 {
-    "Careers":[
-        {
-            "careerID": 1,
-            "careerImg": "../../public/images/Career/ComputerScience.png",
-            "careerName": "Software Engineer",
-            "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps...",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 2,
-            "careerImg": "../../public/images/Career/DataScience.jpeg",
-            "careerName": "Data Scientist",
-            "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 3,
-            "careerImg": "../../public/images/Career/Crypto.jpeg",
-            "careerName": "Cybersecurity Analyst",
-            "careerDesc": "Cybersecurity analysts protect systems and networks from cyber threats by identifying vulnerabilities and implementing security measures.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 4,
-            "careerImg": "../../public/images/Career/Business3.jpeg",
-            "careerName": "AI/ML Engineer",
-            "careerDesc": "AI/ML engineers develop artificial intelligence models and machine learning algorithms to automate tasks and improve decision-making.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 5,
-            "careerImg": "../../public/images/Career/Math.jpeg",
-            "careerName": "DevOps Engineer",
-            "careerDesc": "DevOps engineers streamline software development and deployment by automating infrastructure and improving collaboration between teams.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Software Engineering"
-        },
-        {
-            "careerID": 6,
-            "careerImg": "../../public/images/Career//Business2.jpeg",
-            "careerName": "Game Developer",
-            "careerDesc": "Game developers design and program video games, working on gameplay mechanics, graphics, and user experience.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Game Design"
-        },
-        {
-            "careerID": 7,
-            "careerImg": "../../public/images/Career/Art.jpeg",
-            "careerName": "Cloud Architect",
-            "careerDesc": "Cloud architects design and manage cloud computing strategies, ensuring scalability, security, and efficiency for businesses.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 8,
-            "careerImg": "../../public/images/Career/Business.jpeg",
-            "careerName": "Robotics Engineer",
-            "careerDesc": "Robotics engineers design and build robotic systems for industries like manufacturing, healthcare, and automation.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Robotics"
-        },
-        {
-            "careerID": 9,
-            "careerImg": "../../public/images/Career/Crypto.jpeg",
-            "careerName": "Blockchain Developer",
-            "careerDesc": "Blockchain developers create decentralized applications (dApps) and smart contracts using blockchain technology.",
-            "Industry": "Technology",
-            "School": "McKelvey School of Engineering",
-            "Major": "Computer Science"
-        },
-        {
-            "careerID": 10,
-            "careerImg": "../../public/images/Career/Business2.jpeg",
-            "careerName": "Quantitative Analyst",
-            "careerDesc": "Quantitative analysts use mathematical models to analyze financial markets and assess risk for investment strategies.",
-            "Industry": "Finance",
-            "School": "Olin Business School",
-            "Major": "Applied Mathematics"
-        },
-        {
-            "careerID": 11,
-            "careerImg": "../../public/images/Career/Math.jpeg",
-            "careerName": "Statistician",
-            "careerDesc": "Statisticians collect, analyze, and interpret data to solve real-world problems in industries like healthcare and economics.",
-            "Industry": "Math",
-            "School": "Math",
-            "Major": "Statistics"
-        },
-        {
-            "careerID": 12,
-            "careerImg": "../../public/images/Career/Business3.jpeg",
-            "careerName": "Actuary",
-            "careerDesc": "Actuaries assess financial risks using mathematics, statistics, and financial theory, primarily in insurance and finance.",
-            "Industry": "Math",
-            "School": "Math",
-            "Major": "Actuarial Science"
-        },
-        {
-            "careerID": 13,
-            "careerImg": "../../public/images/Career/Crypto.jpeg",
-            "careerName": "Cryptographer",
-            "careerDesc": "Cryptographers develop algorithms and encryption methods to secure data and communications from cyber threats.",
-            "Industry": "Tech/Math",
-            "School": "Math",
-            "Major": "Cryptography"
-        },
-        {
-            "careerID": 14,
-            "careerImg": "../../public/images/Career//Writer.jpeg",
-            "careerName": "Technical Writer",
-            "careerDesc": "Technical writers create clear and concise documentation, manuals, and guides for software, hardware, and engineering products.",
-            "Industry": "Tech/Literature",
-            "School": "Arts/Literature",
-            "Major": "Technical Writing"
-        },
-        {
-            "careerID": 15,
-            "careerImg": "../../public/images/Career/Writer2.jpeg",
-            "careerName": "Creative Writer",
-            "careerDesc": "Creative writers craft novels, scripts, poetry, and other literary works, often for publishing, media, or entertainment industries.",
-            "Industry": "Arts/Literature",
-            "School": "College of Arts and Sciences",
-            "Major": "Creative Writing"
-        },
-        {
-            "careerID": 16,
-            "careerImg": "../../public/images/Career/UXDesign.jpeg",
-            "careerName": "UX/UI Designer",
-            "careerDesc": "UX/UI designers create user-friendly and visually appealing interfaces for websites, apps, and digital products.",
-            "Industry": "Tech",
-            "School": "Arts/Design",
-            "Major": "Human-Computer Interaction"
-        },
-        {
-            "careerID": 17,
-            "careerImg": "../../public/images/Career/Art.jpeg",
-            "careerName": "Digital Artist",
-            "careerDesc": "Digital artists use software tools to create illustrations, animations, and visual effects for games, films, and advertising.",
-            "Industry": "Creative Industries",
-            "School": "Sam Fox School of Design",
-            "Major": "Digital Arts"
-        },
-        {
-            "careerID": 18,
-            "careerImg": "../../public/images/Career/Writer3.jpeg",
-            "careerName": "Literary Editor",
-            "careerDesc": "Literary editors review and refine manuscripts, ensuring clarity, coherence, and quality in books, articles, and publications.",
-            "Industry": "Arts/Literature",
-            "School": "Arts/Literature",
-            "Major": "English"
-        },
-        {
-            "careerID": 19,
-            "careerImg": "../../public/images/Career/Math.jpeg",
-            "careerName": "Mathematician",
-            "careerDesc": "Mathematicians research and develop mathematical theories, applying them to solve problems in science, engineering, and economics.",
-            "Industry": "Math",
-            "School": "Math",
-            "Major": "Mathematics"
-        },
-        {
-            "careerID": 20,
-            "careerImg": "../../public/images/Career/DataScience.jpeg",
-            "careerName": "3D Modeler",
-            "careerDesc": "3D modelers create digital representations of objects and characters for animation, gaming, and virtual reality.",
-            "Industry": "Tech/Arts",
-            "School": "Arts/Engineering",
-            "Major": "3D Animation"
-        },
-        {
-            "careerID": 21,
-            "careerImg": "../../public/images/Career/Business.jpeg",
-            "careerName": "Systems Architect",
-            "careerDesc": "Systems architects design and oversee complex IT infrastructures, ensuring efficiency, security, and scalability for organizations.",
-            "Industry": "Tech",
-            "School": "Engineering",
-            "Major": "Computer Engineering"
-        }
-    ]
+  "Careers": [
+    {
+      "careerID": 1,
+      "careerImg": "../../public/images/Career/ComputerScience.png",
+      "careerName": "Software Engineer",
+      "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps to enterprise solutions.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 2,
+      "careerImg": "../../public/images/Career/DataScience.jpeg",
+      "careerName": "Data Scientist",
+      "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 3,
+      "careerImg": "",
+      "careerName": "Cybersecurity Analyst",
+      "careerDesc": "Cybersecurity analysts protect systems and networks from cyber threats by identifying vulnerabilities and implementing security measures.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 4,
+      "careerImg": "",
+      "careerName": "AI/ML Engineer",
+      "careerDesc": "AI/ML engineers develop artificial intelligence models and machine learning algorithms to automate tasks and improve decision-making.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 5,
+      "careerImg": "",
+      "careerName": "DevOps Engineer",
+      "careerDesc": "DevOps engineers streamline software development and deployment by automating infrastructure and improving collaboration between teams.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 6,
+      "careerImg": "",
+      "careerName": "Game Developer",
+      "careerDesc": "Game developers design and program video games, working on gameplay mechanics, graphics, and user experience.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 7,
+      "careerImg": "",
+      "careerName": "Cloud Architect",
+      "careerDesc": "Cloud architects design and manage cloud computing strategies, ensuring scalability, security, and efficiency for businesses.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 8,
+      "careerImg": "",
+      "careerName": "Robotics Engineer",
+      "careerDesc": "Robotics engineers design and build robotic systems for industries like manufacturing, healthcare, and automation.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 9,
+      "careerImg": "",
+      "careerName": "Blockchain Developer",
+      "careerDesc": "Blockchain developers create decentralized applications (dApps) and smart contracts using blockchain technology.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 10,
+      "careerImg": "",
+      "careerName": "Statistician",
+      "careerDesc": "Statisticians collect, analyze, and interpret data to solve real-world problems in industries like healthcare and economics.",
+      "Industry": "STEM & Technology",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 11,
+      "careerImg": "",
+      "careerName": "Cryptographer",
+      "careerDesc": "Cryptographers develop algorithms and encryption methods to secure data and communications from cyber threats.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 12,
+      "careerImg": "",
+      "careerName": "Technical Writer",
+      "careerDesc": "Technical writers create clear and concise documentation, manuals, and guides for software, hardware, and engineering products.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 13,
+      "careerImg": "",
+      "careerName": "Mathematician",
+      "careerDesc": "Mathematicians research and develop mathematical theories, applying them to solve problems in science, engineering, and economics.",
+      "Industry": "STEM & Technology",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 14,
+      "careerImg": "",
+      "careerName": "Systems Architect",
+      "careerDesc": "Systems architects design and oversee complex IT infrastructures, ensuring efficiency, security, and scalability for organizations.",
+      "Industry": "STEM & Technology",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 15,
+      "careerImg": "",
+      "careerName": "Creative Writer",
+      "careerDesc": "Creative writers craft novels, scripts, poetry, and other literary works, often for publishing, media, or entertainment industries.",
+      "Industry": "Arts, Design & Media",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 16,
+      "careerImg": "",
+      "careerName": "UX/UI Designer",
+      "careerDesc": "UX/UI designers create user-friendly and visually appealing interfaces for websites, apps, and digital products.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 17,
+      "careerImg": "",
+      "careerName": "Digital Artist",
+      "careerDesc": "Digital artists use software tools to create illustrations, animations, and visual effects for games, films, and advertising.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 18,
+      "careerImg": "",
+      "careerName": "Literary Editor",
+      "careerDesc": "Literary editors review and refine manuscripts, ensuring clarity, coherence, and quality in books, articles, and publications.",
+      "Industry": "Arts, Design & Media",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 19,
+      "careerImg": "",
+      "careerName": "3D Modeler",
+      "careerDesc": "3D modelers create digital representations of objects and characters for animation, gaming, and virtual reality.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 20,
+      "careerImg": "",
+      "careerName": "Graphic Designer",
+      "careerDesc": "Graphic designers create visual content for branding, marketing, and communication across print and digital media.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 21,
+      "careerImg": "",
+      "careerName": "Art Director",
+      "careerDesc": "Art directors oversee visual style and imagery in magazines, newspapers, product packaging, movies, and television productions.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 22,
+      "careerImg": "",
+      "careerName": "Animator",
+      "careerDesc": "Animators create moving images and visual effects for films, television, video games, and digital media.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 23,
+      "careerImg": "",
+      "careerName": "Video Game Artist",
+      "careerDesc": "Video game artists design characters, environments, and visual elements that bring video games to life.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 24,
+      "careerImg": "",
+      "careerName": "Film Editor",
+      "careerDesc": "Film editors assemble raw footage into finished productions, working closely with directors to tell compelling stories.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 25,
+      "careerImg": "",
+      "careerName": "Motion Graphics Designer",
+      "careerDesc": "Motion graphics designers create animated graphics and visual effects for video content, advertising, and digital media.",
+      "Industry": "Arts, Design & Media",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 26,
+      "careerImg": "",
+      "careerName": "Investment Banker",
+      "careerDesc": "Investment bankers help companies raise capital, advise on mergers and acquisitions, and provide financial strategy consulting.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 27,
+      "careerImg": "",
+      "careerName": "Management Consultant",
+      "careerDesc": "Management consultants analyze business problems and develop strategies to improve organizational efficiency and profitability.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 28,
+      "careerImg": "",
+      "careerName": "Financial Analyst",
+      "careerDesc": "Financial analysts evaluate investment opportunities, assess financial performance, and provide recommendations for business decisions.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 29,
+      "careerImg": "",
+      "careerName": "Quantitative Analyst",
+      "careerDesc": "Quantitative analysts use mathematical models to analyze financial markets and assess risk for investment strategies.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 30,
+      "careerImg": "",
+      "careerName": "Actuary",
+      "careerDesc": "Actuaries assess financial risks using mathematics, statistics, and financial theory, primarily in insurance and finance.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 31,
+      "careerImg": "",
+      "careerName": "Marketing Manager",
+      "careerDesc": "Marketing managers develop and execute marketing strategies to promote products and services and drive business growth.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 32,
+      "careerImg": "",
+      "careerName": "Product Manager",
+      "careerDesc": "Product managers guide product development from conception to launch, balancing customer needs with business objectives.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 33,
+      "careerImg": "",
+      "careerName": "Business Analyst",
+      "careerDesc": "Business analysts identify business needs and find technological solutions to improve processes and increase efficiency.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 34,
+      "careerImg": "",
+      "careerName": "Supply Chain Manager",
+      "careerDesc": "Supply chain managers oversee the flow of goods from suppliers to customers, optimizing logistics and reducing costs.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 35,
+      "careerImg": "",
+      "careerName": "Entrepreneur",
+      "careerDesc": "Entrepreneurs start and manage their own businesses, taking calculated risks to bring innovative ideas to market.",
+      "Industry": "Business, Finance & Consulting",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 36,
+      "careerImg": "",
+      "careerName": "Physician",
+      "careerDesc": "Physicians diagnose and treat illnesses, injuries, and medical conditions to improve patient health and wellbeing.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 37,
+      "careerImg": "",
+      "careerName": "Biomedical Engineer",
+      "careerDesc": "Biomedical engineers design medical devices and equipment, combining engineering principles with biological sciences.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 38,
+      "careerImg": "",
+      "careerName": "Research Scientist",
+      "careerDesc": "Research scientists conduct experiments and studies to advance knowledge in biology, chemistry, medicine, and other sciences.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 39,
+      "careerImg": "",
+      "careerName": "Clinical Research Coordinator",
+      "careerDesc": "Clinical research coordinators manage clinical trials, ensuring compliance with protocols and regulatory requirements.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 40,
+      "careerImg": "",
+      "careerName": "Pharmaceutical Scientist",
+      "careerDesc": "Pharmaceutical scientists develop and test new drugs and medications to treat diseases and improve patient outcomes.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 41,
+      "careerImg": "",
+      "careerName": "Genetic Counselor",
+      "careerDesc": "Genetic counselors assess individual or family risk for genetic disorders and provide information about testing options.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 42,
+      "careerImg": "",
+      "careerName": "Public Health Analyst",
+      "careerDesc": "Public health analysts study health trends and develop programs to improve community health and prevent disease.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 43,
+      "careerImg": "",
+      "careerName": "Epidemiologist",
+      "careerDesc": "Epidemiologists investigate patterns and causes of diseases in populations to inform public health policy and prevention.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 44,
+      "careerImg": "",
+      "careerName": "Medical Device Engineer",
+      "careerDesc": "Medical device engineers design and develop equipment used for diagnosis, monitoring, and treatment of medical conditions.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 45,
+      "careerImg": "",
+      "careerName": "Biotechnology Researcher",
+      "careerDesc": "Biotechnology researchers use living organisms and biological systems to develop new products and technologies.",
+      "Industry": "Healthcare & Life Sciences",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 46,
+      "careerImg": "",
+      "careerName": "Policy Analyst",
+      "careerDesc": "Policy analysts research and evaluate policies, providing recommendations to government officials and organizations.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 47,
+      "careerImg": "",
+      "careerName": "Urban Planner",
+      "careerDesc": "Urban planners develop plans and programs for land use in urban areas to create sustainable and livable communities.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 48,
+      "careerImg": "",
+      "careerName": "Teacher",
+      "careerDesc": "Teachers educate students in various subjects, fostering critical thinking and preparing them for future success.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 49,
+      "careerImg": "",
+      "careerName": "Education Administrator",
+      "careerDesc": "Education administrators oversee educational programs, manage school operations, and develop curriculum standards.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 50,
+      "careerImg": "",
+      "careerName": "Diplomat",
+      "careerDesc": "Diplomats represent their country's interests abroad, negotiate treaties, and maintain international relationships.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 51,
+      "careerImg": "",
+      "careerName": "Legislative Aide",
+      "careerDesc": "Legislative aides support elected officials by researching policy issues, drafting legislation, and communicating with constituents.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 52,
+      "careerImg": "",
+      "careerName": "Social Worker",
+      "careerDesc": "Social workers help individuals and families cope with challenges, connecting them with resources and support services.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 53,
+      "careerImg": "",
+      "careerName": "Immigration Officer",
+      "careerDesc": "Immigration officers enforce immigration laws, process applications, and make decisions on entry and citizenship matters.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 54,
+      "careerImg": "",
+      "careerName": "International Relations Specialist",
+      "careerDesc": "International relations specialists analyze global political and economic trends to advise on foreign policy matters.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 55,
+      "careerImg": "",
+      "careerName": "Program Coordinator",
+      "careerDesc": "Program coordinators plan and implement educational and community programs, managing resources and stakeholder relationships.",
+      "Industry": "Government, Policy & Education",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 56,
+      "careerImg": "",
+      "careerName": "Environmental Scientist",
+      "careerDesc": "Environmental scientists study the environment and develop solutions to protect natural resources and human health.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 57,
+      "careerImg": "",
+      "careerName": "Sustainability Consultant",
+      "careerDesc": "Sustainability consultants help organizations reduce environmental impact and implement sustainable business practices.",
+      "Industry": "Environmental & Sustainability",
+      "School": "Olin Business School"
+    },
+    {
+      "careerID": 58,
+      "careerImg": "",
+      "careerName": "Conservation Biologist",
+      "careerDesc": "Conservation biologists work to protect endangered species and preserve biodiversity through research and advocacy.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 59,
+      "careerImg": "",
+      "careerName": "Renewable Energy Engineer",
+      "careerDesc": "Renewable energy engineers design and develop systems that harness solar, wind, and other sustainable energy sources.",
+      "Industry": "Environmental & Sustainability",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 60,
+      "careerImg": "",
+      "careerName": "Climate Analyst",
+      "careerDesc": "Climate analysts study climate patterns and trends to inform policy decisions and climate change mitigation strategies.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 61,
+      "careerImg": "",
+      "careerName": "Environmental Engineer",
+      "careerDesc": "Environmental engineers develop solutions to environmental problems, including waste treatment, pollution control, and recycling.",
+      "Industry": "Environmental & Sustainability",
+      "School": "McKelvey School of Engineering"
+    },
+    {
+      "careerID": 62,
+      "careerImg": "",
+      "careerName": "Marine Biologist",
+      "careerDesc": "Marine biologists study ocean ecosystems and marine life to understand and protect aquatic environments.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 63,
+      "careerImg": "",
+      "careerName": "Wildlife Manager",
+      "careerDesc": "Wildlife managers develop and implement programs to conserve wildlife populations and their habitats.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    },
+    {
+      "careerID": 64,
+      "careerImg": "",
+      "careerName": "Green Building Architect",
+      "careerDesc": "Green building architects design energy-efficient, sustainable structures that minimize environmental impact.",
+      "Industry": "Environmental & Sustainability",
+      "School": "Sam Fox School of Design"
+    },
+    {
+      "careerID": 65,
+      "careerImg": "",
+      "careerName": "Environmental Policy Advisor",
+      "careerDesc": "Environmental policy advisors develop and advocate for policies that protect the environment and promote sustainability.",
+      "Industry": "Environmental & Sustainability",
+      "School": "College of Arts & Sciences"
+    }
+  ]
 }

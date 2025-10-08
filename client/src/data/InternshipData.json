@@ -3,7 +3,7 @@
     {
       "internshipID": 1,
       "internshipName": "Capital One - Software Engineering Internship",
-      "internshipImage": " ./Assets/Images/InternshipImage1.png",
+      "internshipImage": "../../public/images/internships/InternshipImage1.png",
       "pay": "None",
       "skills": ["UX Design"],
       "qualities": ["Minimum 2 years experience"],
@@ -15,7 +15,7 @@
     {
       "internshipID": 2,
       "internshipName": "Adobe - Graphic Design Internship",
-      "internshipImage": " ./Assets/Images/InternshipImage2.png",
+      "internshipImage": "../../public/images/internships/InternshipImage2.png",
       "pay": "12/hour",
       "skills": ["Science, Research"],
       "qualities": ["No Experience Neccessary"],
@@ -27,7 +27,7 @@
     {
       "internshipID": 3,
       "internshipName": "Mastercard - Business Operation Internship",
-      "internshipImage": " ./Assets/Images/InternshipImage3.png",
+      "internshipImage": "../../public/images/internships/InternshipImage3.png",
       "pay": "12/hour",
       "skills": ["Science, Research"],
       "qualities": ["No Experience Neccessary"],
@@ -39,7 +39,7 @@
     {
       "internshipID": 4,
       "internshipName": "Meta - AL/ML Engineer Internship",
-      "internshipImage": " ./Assets/Images/InternshipImage4.png",
+      "internshipImage": "../../public/images/internships/InternshipImage4.png",
       "pay": "15/hr",
       "skills": ["Literature"],
       "qualities": ["No Experience Neccessary"],

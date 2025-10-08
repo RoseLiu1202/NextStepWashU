@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { Search, ChevronRight, Briefcase, GraduationCap, Building2, TrendingUp } from 'lucide-react';
+import { Search, ChevronRight, Briefcase, Building2, TrendingUp } from 'lucide-react';
 import careerData from '../data/CareerData.json';
 
 const CareerExplorer = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedIndustries, setSelectedIndustries] = useState([]);
     const [selectedSchools, setSelectedSchools] = useState([]);
-    const [selectedMajors, setSelectedMajors] = useState([]);
 
     // Import career data from JSON file
     // Handle both array and object with Careers property (capital C)
@@ -14,43 +13,19 @@ const CareerExplorer = () => {
 
     // Filter options
     const industries = [
-        { id: 'Tech', label: 'Tech/Engineering' },
-        { id: 'Arts/Literature', label: 'Arts/Literature' },
-        { id: 'Math', label: 'Mathematics' },
-        { id: 'Finance/Tech', label: 'Finance/Tech' },
-        { id: 'Tech/Math', label: 'Tech/Math' },
-        { id: 'Tech/Literature', label: 'Tech/Literature' },
-        { id: 'Arts/Tech', label: 'Arts/Tech' },
-        { id: 'Arts', label: 'Arts' }
+        { id: 'STEM & Technology', label: 'STEM & Technology' },
+        { id: 'Arts, Design & Media', label: 'Arts, Design & Media' },
+        { id: 'Business, Finance & Consulting', label: 'Business, Finance & Consulting' },
+        { id: 'Healthcare & Life Sciences', label: 'Healthcare & Life Sciences' },
+        { id: 'Government, Policy & Education', label: 'Government, Policy & Education' },
+        { id: 'Environmental & Sustainability', label: 'Environmental & Sustainability' }
     ];
 
     const schools = [
-        { id: 'Engineering', label: 'Engineering' },
-        { id: 'Arts/Literature', label: 'Arts/Literature' },
-        { id: 'Arts/Design', label: 'Arts/Design' },
-        { id: 'Arts', label: 'Arts' },
-        { id: 'Arts/Engineering', label: 'Arts/Engineering' }
-    ];
-
-    const majors = [
-        { id: 'CS', label: 'Computer Science' },
-        { id: 'Computer Science', label: 'Computer Science' },
-        { id: 'Computer Engineering', label: 'Computer Engineering' },
-        { id: 'Cybersecurity', label: 'Cybersecurity' },
-        { id: 'Software Engineering', label: 'Software Engineering' },
-        { id: 'Game Design', label: 'Game Design' },
-        { id: 'Robotics', label: 'Robotics' },
-        { id: 'Applied Mathematics', label: 'Applied Mathematics' },
-        { id: 'Statistics', label: 'Statistics' },
-        { id: 'Actuarial Science', label: 'Actuarial Science' },
-        { id: 'Cryptography', label: 'Cryptography' },
-        { id: 'Technical Writing', label: 'Technical Writing' },
-        { id: 'Creative Writing', label: 'Creative Writing' },
-        { id: 'Human-Computer Interaction', label: 'UX/UI Design' },
-        { id: 'Digital Arts', label: 'Digital Arts' },
-        { id: 'English', label: 'English' },
-        { id: 'Mathematics', label: 'Mathematics' },
-        { id: '3D Animation', label: '3D Animation' }
+        { id: 'McKelvey School of Engineering', label: 'McKelvey School of Engineering' },
+        { id: 'College of Arts & Sciences', label: 'College of Arts & Sciences' },
+        { id: 'Sam Fox School of Design', label: 'Sam Fox School of Design' },
+        { id: 'Olin Business School', label: 'Olin Business School' },
     ];
 
     // Toggle filter
@@ -73,24 +48,18 @@ const CareerExplorer = () => {
         const matchesSchool = selectedSchools.length === 0 ||
             selectedSchools.includes(career.School);
 
-        const matchesMajor = selectedMajors.length === 0 ||
-            selectedMajors.includes(career.Major);
-
-        return matchesSearch && matchesIndustry && matchesSchool && matchesMajor;
+        return matchesSearch && matchesIndustry && matchesSchool;
     });
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
             {/* Header Banner */}
-            <div className="relative h-64 bg-gradient-to-r from-pink-100 via-purple-100 to-orange-100 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-pink-200/40 via-purple-200/40 to-orange-200/40"></div>
-                <div className="relative max-w-7xl mx-auto px-6 h-full flex flex-col justify-center">
-                    <h1 className="text-5xl font-bold text-gray-900 mb-3">Explore Your Career</h1>
-                    <p className="text-xl text-gray-700">Discover paths that match your interests and goals</p>
-                </div>
-                {/* Decorative gradient orbs */}
-                <div className="absolute top-10 right-20 w-40 h-40 bg-pink-300/30 rounded-full blur-3xl"></div>
-                <div className="absolute bottom-10 left-20 w-48 h-48 bg-purple-300/30 rounded-full blur-3xl"></div>
+            <div className="relative h-80 overflow-hidden">
+                <img
+                    src="../../public/images/banner.png"
+                    alt="Career Explorer Banner"
+                    className="absolute inset-0 w-full h-full object-cover"
+                />
             </div>
 
             <div className="max-w-7xl mx-auto px-6 py-8">
@@ -156,34 +125,12 @@ const CareerExplorer = () => {
                                 </div>
                             </div>
 
-                            {/* Major Filter */}
-                            <div>
-                                <div className="flex items-center mb-3">
-                                    <GraduationCap className="w-4 h-4 text-orange-500 mr-2" />
-                                    <p className="text-sm font-semibold text-gray-700">Major</p>
-                                </div>
-                                <div className="space-y-2">
-                                    {majors.map(major => (
-                                        <label key={major.id} className="flex items-center cursor-pointer group">
-                                            <input
-                                                type="checkbox"
-                                                checked={selectedMajors.includes(major.id)}
-                                                onChange={() => toggleFilter(major.id, selectedMajors, setSelectedMajors)}
-                                                className="w-4 h-4 rounded border-gray-300 text-orange-500 focus:ring-2 focus:ring-orange-200 cursor-pointer"
-                                            />
-                                            <span className="ml-3 text-sm text-gray-700 group-hover:text-gray-900">{major.label}</span>
-                                        </label>
-                                    ))}
-                                </div>
-                            </div>
-
                             {/* Clear Filters */}
-                            {(selectedIndustries.length > 0 || selectedSchools.length > 0 || selectedMajors.length > 0 || searchQuery) && (
+                            {(selectedIndustries.length > 0 || selectedSchools.length > 0 || searchQuery) && (
                                 <button
                                     onClick={() => {
                                         setSelectedIndustries([]);
                                         setSelectedSchools([]);
-                                        setSelectedMajors([]);
                                         setSearchQuery('');
                                     }}
                                     className="w-full mt-6 px-4 py-2 text-sm text-gray-600 hover:text-gray-900 border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors"

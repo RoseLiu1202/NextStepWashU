@@ -7,9 +7,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        'pink-custom': '#f8a2b2',
-        'purple-custom': '#ec95ff',
-        'orange-custom': '#ffa985',
       },
     },
   },

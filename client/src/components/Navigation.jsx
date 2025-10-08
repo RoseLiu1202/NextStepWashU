@@ -26,11 +26,12 @@ const Navigation = () => {
         <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200/50">
             <div className="flex items-center justify-between h-16 px-6">
                 {/* Logo - Left Edge */}
-                <Link to="/" className="flex items-center space-x-3 group">
-                    <div className="w-10 h-10 bg-gradient-to-br from-pink-400 via-purple-400 to-orange-400 rounded-xl flex items-center justify-center transition-transform group-hover:scale-105">
-                        <span className="text-white font-bold text-lg">NS</span>
-                    </div>
-                    <span className="text-xl font-bold text-gray-900 hidden sm:block">Next Step</span>
+                <Link to="/" className="flex items-center group">
+                    <img
+                        src="../../public/images/Logo.png"
+                        alt="Next Step"
+                        className="h-10 w-auto transition-transform group-hover:scale-105"
+                    />
                 </Link>
 
                 {/* Center Navigation */}
@@ -61,16 +62,16 @@ const Navigation = () => {
                         }`}>
                             <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
                                 <div className="p-2">
-                                    <DropdownLink to="/careers" icon="💼" onClick={() => setIsCareerOpen(false)}>
+                                    <DropdownLink to="/careers"  onClick={() => setIsCareerOpen(false)}>
                                         Career Paths
                                     </DropdownLink>
-                                    <DropdownLink to="/internships" icon="🎯" onClick={() => setIsCareerOpen(false)}>
+                                    <DropdownLink to="/internships"  onClick={() => setIsCareerOpen(false)}>
                                         Internships
                                     </DropdownLink>
-                                    <DropdownLink to="/courses" icon="📚" onClick={() => setIsCareerOpen(false)}>
+                                    <DropdownLink to="/courses" onClick={() => setIsCareerOpen(false)}>
                                         Courses
                                     </DropdownLink>
-                                    <DropdownLink to="/clubs" icon="👥" onClick={() => setIsCareerOpen(false)}>
+                                    <DropdownLink to="/clubs" onClick={() => setIsCareerOpen(false)}>
                                         Clubs
                                     </DropdownLink>
                                 </div>

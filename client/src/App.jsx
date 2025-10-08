@@ -4,6 +4,14 @@ import AIJournalInterface from './components/AIJournal.jsx';
 import Navigation from './components/Navigation.jsx';
 import Profile from './components/Profile.jsx';
 import CareerHome from './components/CareerHome.jsx';
+import Internships from './components/Internships.jsx';
+import Courses from './components/Courses.jsx';
+import Clubs from './components/Clubs.jsx';
+import Feed from './components/Feed.jsx';
+
+
+
+
 
 
 function App() {
@@ -13,10 +21,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/careers" element={<CareerHome />} />
-                {/*<Route path="/internships" element={<Internships />} />*/}
-                {/*<Route path="/courses" element={<Courses />} />*/}
-                {/*<Route path="/clubs" element={<Clubs />} />*/}
-                {/*<Route path="/feed" element={<Feed />} />*/}
+                <Route path="/internships" element={<Internships />} />
+                <Route path="/courses" element={<Courses />} />
+                <Route path="/clubs" element={<Clubs />} />
+                <Route path="/feed" element={<Feed />} />
                 <Route path="/journal" element={<AIJournalInterface />} />
                 <Route path="/profile" element={<Profile />} />
             </Routes>
