@@ -63,14 +63,13 @@ const AlumniFeed = () => {
 
                 {/* Create Post Button */}
                 <a
-                    href="/post-creation"
+                    href="/postSubmit"
                     className="block mb-8 p-6 bg-white border-2 border-dashed border-gray-300 rounded-xl hover:border-pink-300 hover:bg-pink-50 transition-all duration-200 cursor-pointer group"
                 >
                     <p className="text-gray-500 group-hover:text-pink-600 transition-colors">
                         Alumni share your insights here...
                     </p>
                 </a>
-
                 {/* Post Feed */}
                 <div className="space-y-6">
                     {filteredPosts.length === 0 ? (
@@ -118,7 +117,7 @@ const AlumniFeed = () => {
 
                                             {/* Video Embed */}
                                             {post.videoUrl && (
-                                                <div className="mb-4 rounded-lg overflow-hidden bg-gray-100 relative" style={{ paddingBottom: '56.25%' }}>
+                                                <div className="mb-4 rounded-lg overflow-hidden bg-gray-100 relative max-w-2xl" style={{ paddingBottom: '56.25%' }}>
                                                     <iframe
                                                         src={post.videoUrl}
                                                         className="absolute top-0 left-0 w-full h-full"
@@ -141,8 +140,8 @@ const AlumniFeed = () => {
                                                     onClick={() => toggleFollow(post.id)}
                                                     className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
                                                         followedUsers.has(post.id)
-                                                            ? 'bg-blue-50 text-blue-600 border border-blue-200 hover:bg-blue-100'
-                                                            : 'bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 text-white hover:shadow-md'
+                                                            ? 'bg-pink-100 text-pink-600 hover:bg-pink-200'
+                                                            : 'bg-blue-50 text-blue-600 border border-blue-200 hover:bg-blue-100'
                                                     }`}
                                                 >
                                                     {followedUsers.has(post.id) ? (

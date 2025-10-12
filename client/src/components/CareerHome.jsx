@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, ChevronRight, Briefcase, Building2, TrendingUp } from 'lucide-react';
 import careerData from '../data/CareerData.json';
+import { useNavigate } from 'react-router-dom';
 
 const CareerExplorer = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -50,6 +51,13 @@ const CareerExplorer = () => {
 
         return matchesSearch && matchesIndustry && matchesSchool;
     });
+
+    const navigate = useNavigate();
+
+    // Handle navigation to career detail page
+    const handleExplorePath = (careerID, careerName) => {
+        navigate(`/careers/${careerID}`);
+    };
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -184,11 +192,14 @@ const CareerExplorer = () => {
                                             </p>
 
                                             {/* Gradient Border Button */}
-                                            <button className="relative px-5 py-2 bg-white text-gray-800 font-semibold text-sm rounded-full border-2 border-transparent hover:bg-gradient-to-r hover:from-pink-200 hover:via-purple-200 hover:to-orange-200 transition-all duration-200 group-hover:shadow-md">
-                        <span className="relative z-10 flex items-center">
-                          Explore Path
-                          <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-0.5 transition-transform" />
-                        </span>
+                                            <button
+                                                onClick={() => handleExplorePath(career.careerID, career.careerName)}
+                                                className="relative px-5 py-2 bg-white text-gray-800 font-semibold text-sm rounded-full border-2 border-transparent hover:bg-gradient-to-r hover:from-pink-200 hover:via-purple-200 hover:to-orange-200 transition-all duration-200 group-hover:shadow-md"
+                                            >
+                                                <span className="relative z-10 flex items-center">
+                                                    Explore Path
+                                                    <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-0.5 transition-transform" />
+                                                </span>
                                                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-200 via-purple-200 to-orange-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10"></div>
                                             </button>
                                         </div>

@@ -5,40 +5,65 @@
       "careerImg": "../../public/images/Career/ComputerScience.png",
       "careerName": "Software Engineer",
       "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps to enterprise solutions.",
+      "longDescription": "A software engineering career involves designing, developing, testing, and maintaining software systems that power everything from mobile apps to large-scale cloud platforms. Software engineers use programming languages, algorithms, and system architecture principles to build efficient, scalable, and secure applications. The field offers diverse opportunities, including frontend and backend development, artificial intelligence, cybersecurity, embedded systems, and DevOps.",
       "Industry": "STEM & Technology",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Python", "JavaScript", "Java", "System Design", "Algorithms", "Data Structures", "Git"],
+      "alumniStudied": ["Computer Science", "Computer Engineering", "Information Systems"],
+      "videos": [
+        {"id": 1, "url": "https://www.youtube.com/embed/U3ySiMerum0"},
+        {"id": 2, "url": "https://www.youtube.com/embed/GQzMiCBZw6Q"},
+        {"id": 3, "url": "https://www.youtube.com/embed/tJq42Qbh7po"},
+        {"id": 4, "url": "https://www.youtube.com/embed/j1fc0FlCjyI"}
+      ]
     },
     {
       "careerID": 2,
       "careerImg": "../../public/images/Career/DataScience.jpeg",
       "careerName": "Data Scientist",
       "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
+      "longDescription": "Data scientists combine statistical analysis, machine learning, and domain expertise to extract insights from large datasets. They build predictive models, create data visualizations, and communicate findings to stakeholders. The role requires strong analytical skills, programming proficiency, and the ability to translate business problems into technical solutions.",
       "Industry": "STEM & Technology",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Python", "R", "SQL", "Machine Learning", "Statistics", "Data Visualization", "Pandas", "TensorFlow"],
+      "alumniStudied": ["Data Science", "Statistics", "Computer Science", "Mathematics"],
+      "videos": []
     },
     {
       "careerID": 3,
       "careerImg": "",
       "careerName": "Cybersecurity Analyst",
       "careerDesc": "Cybersecurity analysts protect systems and networks from cyber threats by identifying vulnerabilities and implementing security measures.",
+      "longDescription": "Cybersecurity analysts are the frontline defenders of digital infrastructure, monitoring networks for security breaches, investigating incidents, and implementing protective measures. They conduct vulnerability assessments, develop security protocols, and stay updated on the latest cyber threats. The role requires both technical expertise and strategic thinking to protect sensitive information.",
       "Industry": "STEM & Technology",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Network Security", "Penetration Testing", "Risk Assessment", "Cryptography", "Python", "Linux", "Incident Response"],
+      "alumniStudied": ["Computer Science", "Cybersecurity", "Information Systems", "Computer Engineering"],
+      "videos": []
     },
     {
       "careerID": 4,
       "careerImg": "",
       "careerName": "AI/ML Engineer",
       "careerDesc": "AI/ML engineers develop artificial intelligence models and machine learning algorithms to automate tasks and improve decision-making.",
+      "longDescription": "AI/ML engineers design and implement artificial intelligence systems and machine learning models that can learn from data and make predictions or decisions. They work on projects ranging from natural language processing to computer vision, developing algorithms that power chatbots, recommendation systems, and autonomous vehicles.",
       "Industry": "STEM & Technology",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Python", "TensorFlow", "PyTorch", "Deep Learning", "NLP", "Computer Vision", "Neural Networks"],
+      "alumniStudied": ["Computer Science", "Data Science", "Electrical Engineering", "Mathematics"],
+      "videos": []
     },
     {
       "careerID": 5,
       "careerImg": "",
       "careerName": "DevOps Engineer",
       "careerDesc": "DevOps engineers streamline software development and deployment by automating infrastructure and improving collaboration between teams.",
+      "longDescription": "DevOps engineers bridge the gap between development and operations, automating deployment processes, managing cloud infrastructure, and ensuring system reliability. They implement continuous integration/continuous deployment (CI/CD) pipelines, monitor system performance, and optimize infrastructure for scalability and cost-efficiency.",
       "Industry": "STEM & Technology",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Python", "Terraform", "Jenkins"],
+      "alumniStudied": ["Computer Science", "Information Systems", "Computer Engineering"],
+      "videos": []
     },
     {
       "careerID": 6,
@@ -125,8 +150,12 @@
       "careerImg": "",
       "careerName": "UX/UI Designer",
       "careerDesc": "UX/UI designers create user-friendly and visually appealing interfaces for websites, apps, and digital products.",
+      "longDescription": "UX/UI designers focus on creating intuitive and aesthetically pleasing digital experiences. They conduct user research, create wireframes and prototypes, and design interfaces that balance functionality with visual appeal. The role requires empathy for users, creative problem-solving, and collaboration with developers and product managers.",
       "Industry": "Arts, Design & Media",
-      "School": "Sam Fox School of Design"
+      "School": "Sam Fox School of Design",
+      "skills": ["Figma", "Adobe XD", "User Research", "Prototyping", "Wireframing", "Visual Design", "HTML/CSS"],
+      "alumniStudied": ["Communication Design", "Interaction Design", "Computer Science", "Psychology"],
+      "videos": []
     },
     {
       "careerID": 17,
@@ -157,8 +186,12 @@
       "careerImg": "",
       "careerName": "Graphic Designer",
       "careerDesc": "Graphic designers create visual content for branding, marketing, and communication across print and digital media.",
+      "longDescription": "Graphic designers use typography, imagery, and color to communicate ideas and create visual identities for brands. They work on projects ranging from logos and packaging to marketing materials and website layouts. The role requires creativity, technical skills, and the ability to translate client needs into compelling visual solutions.",
       "Industry": "Arts, Design & Media",
-      "School": "Sam Fox School of Design"
+      "School": "Sam Fox School of Design",
+      "skills": ["Adobe Creative Suite", "Typography", "Branding", "Layout Design", "Color Theory", "Illustration"],
+      "alumniStudied": ["Communication Design", "Visual Arts", "Graphic Design", "Studio Arts"],
+      "videos": []
     },
     {
       "careerID": 21,
@@ -205,16 +238,24 @@
       "careerImg": "",
       "careerName": "Investment Banker",
       "careerDesc": "Investment bankers help companies raise capital, advise on mergers and acquisitions, and provide financial strategy consulting.",
+      "longDescription": "Investment bankers work on high-stakes financial transactions, including mergers, acquisitions, and initial public offerings (IPOs). They analyze market trends, create financial models, and pitch deals to clients. The role requires strong analytical skills, financial acumen, and the ability to work under pressure in a fast-paced environment.",
       "Industry": "Business, Finance & Consulting",
-      "School": "Olin Business School"
+      "School": "Olin Business School",
+      "skills": ["Financial Modeling", "Valuation", "Excel", "PowerPoint", "M&A Analysis", "Corporate Finance"],
+      "alumniStudied": ["Finance", "Business Administration", "Economics", "Accounting"],
+      "videos": []
     },
     {
       "careerID": 27,
       "careerImg": "",
       "careerName": "Management Consultant",
       "careerDesc": "Management consultants analyze business problems and develop strategies to improve organizational efficiency and profitability.",
+      "longDescription": "Management consultants partner with organizations to solve complex business challenges, from optimizing operations to developing growth strategies. They conduct research, analyze data, and present recommendations to senior leadership. The role requires problem-solving skills, business acumen, and excellent communication abilities.",
       "Industry": "Business, Finance & Consulting",
-      "School": "Olin Business School"
+      "School": "Olin Business School",
+      "skills": ["Problem Solving", "Data Analysis", "Strategic Planning", "Excel", "PowerPoint", "Communication"],
+      "alumniStudied": ["Business Administration", "Economics", "Engineering", "Liberal Arts"],
+      "videos": []
     },
     {
       "careerID": 28,
@@ -253,8 +294,12 @@
       "careerImg": "",
       "careerName": "Product Manager",
       "careerDesc": "Product managers guide product development from conception to launch, balancing customer needs with business objectives.",
+      "longDescription": "Product managers are responsible for defining product vision, strategy, and roadmap. They work cross-functionally with engineering, design, marketing, and sales teams to deliver products that meet customer needs and business goals. The role requires strategic thinking, technical understanding, and strong leadership skills.",
       "Industry": "Business, Finance & Consulting",
-      "School": "Olin Business School"
+      "School": "Olin Business School",
+      "skills": ["Product Strategy", "User Research", "Agile Methodology", "Data Analysis", "Communication", "Roadmapping"],
+      "alumniStudied": ["Business Administration", "Computer Science", "Marketing", "Engineering"],
+      "videos": []
     },
     {
       "careerID": 33,
@@ -285,24 +330,36 @@
       "careerImg": "",
       "careerName": "Physician",
       "careerDesc": "Physicians diagnose and treat illnesses, injuries, and medical conditions to improve patient health and wellbeing.",
+      "longDescription": "Physicians provide comprehensive medical care, diagnosing and treating a wide range of health conditions. They conduct examinations, order tests, prescribe medications, and develop treatment plans. The role requires extensive medical knowledge, compassion, and the ability to make critical decisions under pressure.",
       "Industry": "Healthcare & Life Sciences",
-      "School": "College of Arts & Sciences"
+      "School": "College of Arts & Sciences",
+      "skills": ["Medical Diagnosis", "Patient Care", "Clinical Skills", "Medical Research", "Communication", "Empathy"],
+      "alumniStudied": ["Biology", "Pre-Medicine", "Chemistry", "Neuroscience"],
+      "videos": []
     },
     {
       "careerID": 37,
       "careerImg": "",
       "careerName": "Biomedical Engineer",
       "careerDesc": "Biomedical engineers design medical devices and equipment, combining engineering principles with biological sciences.",
+      "longDescription": "Biomedical engineers apply engineering principles to medicine and biology to develop technologies that improve healthcare. They design medical devices, prosthetics, diagnostic equipment, and therapeutic systems. The role bridges engineering and healthcare, requiring technical expertise and understanding of biological systems.",
       "Industry": "Healthcare & Life Sciences",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["CAD", "Medical Device Design", "MATLAB", "Biology", "Materials Science", "Signal Processing"],
+      "alumniStudied": ["Biomedical Engineering", "Mechanical Engineering", "Electrical Engineering", "Biology"],
+      "videos": []
     },
     {
       "careerID": 38,
       "careerImg": "",
       "careerName": "Research Scientist",
       "careerDesc": "Research scientists conduct experiments and studies to advance knowledge in biology, chemistry, medicine, and other sciences.",
+      "longDescription": "Research scientists design and conduct experiments to advance scientific knowledge and develop new technologies. They analyze data, publish findings, and collaborate with other researchers. The role requires curiosity, analytical thinking, and expertise in specific scientific domains.",
       "Industry": "Healthcare & Life Sciences",
-      "School": "College of Arts & Sciences"
+      "School": "College of Arts & Sciences",
+      "skills": ["Experimental Design", "Data Analysis", "Laboratory Techniques", "Scientific Writing", "R/Python", "Statistics"],
+      "alumniStudied": ["Biology", "Chemistry", "Physics", "Biochemistry", "Neuroscience"],
+      "videos": []
     },
     {
       "careerID": 39,
@@ -365,8 +422,12 @@
       "careerImg": "",
       "careerName": "Policy Analyst",
       "careerDesc": "Policy analysts research and evaluate policies, providing recommendations to government officials and organizations.",
+      "longDescription": "Policy analysts research complex social, economic, and political issues to inform policy decisions. They analyze data, evaluate program effectiveness, and develop policy recommendations. The role requires strong research skills, critical thinking, and the ability to communicate findings to diverse audiences.",
       "Industry": "Government, Policy & Education",
-      "School": "College of Arts & Sciences"
+      "School": "College of Arts & Sciences",
+      "skills": ["Policy Research", "Data Analysis", "Writing", "Economics", "Statistics", "Public Speaking"],
+      "alumniStudied": ["Political Science", "Economics", "Public Policy", "International Relations"],
+      "videos": []
     },
     {
       "careerID": 47,
@@ -381,8 +442,12 @@
       "careerImg": "",
       "careerName": "Teacher",
       "careerDesc": "Teachers educate students in various subjects, fostering critical thinking and preparing them for future success.",
+      "longDescription": "Teachers design and deliver lessons that engage students and facilitate learning. They assess student progress, provide feedback, and create supportive learning environments. The role requires subject expertise, patience, creativity, and strong communication skills.",
       "Industry": "Government, Policy & Education",
-      "School": "College of Arts & Sciences"
+      "School": "College of Arts & Sciences",
+      "skills": ["Curriculum Development", "Classroom Management", "Communication", "Assessment", "Patience", "Creativity"],
+      "alumniStudied": ["Education", "Subject-Specific Majors", "Liberal Arts", "Child Development"],
+      "videos": []
     },
     {
       "careerID": 49,
@@ -445,16 +510,24 @@
       "careerImg": "",
       "careerName": "Environmental Scientist",
       "careerDesc": "Environmental scientists study the environment and develop solutions to protect natural resources and human health.",
+      "longDescription": "Environmental scientists conduct research to identify, reduce, and eliminate pollutants and hazards that affect the environment and public health. They collect samples, analyze data, and develop plans to prevent or remediate environmental problems. The role requires scientific knowledge, analytical skills, and commitment to sustainability.",
       "Industry": "Environmental & Sustainability",
-      "School": "College of Arts & Sciences"
+      "School": "College of Arts & Sciences",
+      "skills": ["Environmental Analysis", "GIS", "Data Collection", "Report Writing", "Field Work", "Chemistry"],
+      "alumniStudied": ["Environmental Science", "Biology", "Chemistry", "Earth Science"],
+      "videos": []
     },
     {
       "careerID": 57,
       "careerImg": "",
       "careerName": "Sustainability Consultant",
       "careerDesc": "Sustainability consultants help organizations reduce environmental impact and implement sustainable business practices.",
+      "longDescription": "Sustainability consultants advise organizations on how to reduce their environmental footprint and operate more sustainably. They conduct assessments, develop sustainability strategies, and help implement green initiatives. The role requires knowledge of environmental issues, business acumen, and project management skills.",
       "Industry": "Environmental & Sustainability",
-      "School": "Olin Business School"
+      "School": "Olin Business School",
+      "skills": ["Sustainability Strategy", "Environmental Auditing", "Project Management", "Data Analysis", "Stakeholder Engagement"],
+      "alumniStudied": ["Environmental Studies", "Business Administration", "Engineering", "Public Policy"],
+      "videos": []
     },
     {
       "careerID": 58,
@@ -469,8 +542,12 @@
       "careerImg": "",
       "careerName": "Renewable Energy Engineer",
       "careerDesc": "Renewable energy engineers design and develop systems that harness solar, wind, and other sustainable energy sources.",
+      "longDescription": "Renewable energy engineers work on technologies that generate power from renewable sources like solar, wind, hydro, and geothermal energy. They design systems, optimize performance, and ensure projects meet technical and environmental standards. The role combines engineering expertise with commitment to sustainable energy solutions.",
       "Industry": "Environmental & Sustainability",
-      "School": "McKelvey School of Engineering"
+      "School": "McKelvey School of Engineering",
+      "skills": ["Energy Systems", "CAD", "Project Management", "Solar/Wind Technology", "MATLAB", "Electrical Engineering"],
+      "alumniStudied": ["Mechanical Engineering", "Electrical Engineering", "Environmental Engineering", "Energy Engineering"],
+      "videos": []
     },
     {
       "careerID": 60,

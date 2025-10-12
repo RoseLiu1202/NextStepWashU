@@ -8,11 +8,8 @@ import Internships from './components/Internships.jsx';
 import Courses from './components/Courses.jsx';
 import Clubs from './components/Clubs.jsx';
 import Feed from './components/Feed.jsx';
-
-
-
-
-
+import CareerDetailPage from './components/CareerIndividual.jsx';
+import PostSubmit from './components/PostSubmit.jsx';
 
 function App() {
     return (
@@ -21,10 +18,12 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/careers" element={<CareerHome />} />
+                <Route path="/careers/:careerID" element={<CareerDetailPage />} />
                 <Route path="/internships" element={<Internships />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="/clubs" element={<Clubs />} />
                 <Route path="/feed" element={<Feed />} />
+                <Route path="/postSubmit" element={<PostSubmit />} />
                 <Route path="/journal" element={<AIJournalInterface />} />
                 <Route path="/profile" element={<Profile />} />
             </Routes>
