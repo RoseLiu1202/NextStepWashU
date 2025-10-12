@@ -9,14 +9,14 @@ import Courses from './components/Courses.jsx';
 import Clubs from './components/Clubs.jsx';
 import Feed from './components/Feed.jsx';
 import CareerDetailPage from './components/CareerIndividual.jsx';
-import PostSubmit from './components/postSubmit.jsx';
+import PostSubmit from './components/PostSubmit.jsx';
 
 function App() {
     return (
         <BrowserRouter>
             <Navigation />
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<CareerHome />} />
                 <Route path="/careers" element={<CareerHome />} />
                 <Route path="/careers/:careerID" element={<CareerDetailPage />} />
                 <Route path="/internships" element={<Internships />} />
@@ -28,25 +28,6 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
             </Routes>
         </BrowserRouter>
-    );
-}
-
-function HomePage() {
-    return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center">
-            <div className="bg-white rounded-2xl shadow-lg p-8 max-w-md">
-                <h1 className="text-3xl font-bold text-gray-900 mb-4">Next Step WashU</h1>
-                <p className="text-gray-600 mb-6">
-                    Navigate career uncertainty with personalized guidance and support.
-                </p>
-                <Link
-                    to="/journal"
-                    className="block w-full px-6 py-3 bg-blue-600 text-white text-center rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-                >
-                    Open AI Journal
-                </Link>
-            </div>
-        </div>
     );
 }
 
