@@ -9,7 +9,7 @@ import Courses from './components/Courses.jsx';
 import Clubs from './components/Clubs.jsx';
 import Feed from './components/Feed.jsx';
 import CareerDetailPage from './components/CareerIndividual.jsx';
-import PostSubmit from './components/PostSubmit.jsx';
+import PostSubmit from './components/postSubmit.jsx';
 
 function App() {
     return (
