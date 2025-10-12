@@ -2,7 +2,7 @@
   "Careers": [
     {
       "careerID": 1,
-      "careerImg": "../../public/images/Career/ComputerScience.png",
+      "careerImg": "/images/Career/ComputerScience.png",
       "careerName": "Software Engineer",
       "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps to enterprise solutions.",
       "longDescription": "A software engineering career involves designing, developing, testing, and maintaining software systems that power everything from mobile apps to large-scale cloud platforms. Software engineers use programming languages, algorithms, and system architecture principles to build efficient, scalable, and secure applications. The field offers diverse opportunities, including frontend and backend development, artificial intelligence, cybersecurity, embedded systems, and DevOps.",
@@ -19,7 +19,7 @@
     },
     {
       "careerID": 2,
-      "careerImg": "../../public/images/Career/DataScience.jpeg",
+      "careerImg": "/images/Career/DataScience.jpeg",
       "careerName": "Data Scientist",
       "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
       "longDescription": "Data scientists combine statistical analysis, machine learning, and domain expertise to extract insights from large datasets. They build predictive models, create data visualizations, and communicate findings to stakeholders. The role requires strong analytical skills, programming proficiency, and the ability to translate business problems into technical solutions.",

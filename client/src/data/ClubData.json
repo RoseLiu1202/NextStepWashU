@@ -2,7 +2,7 @@
   {
     "clubID": 1,
     "clubName": "Robotics",
-    "clubImage": "./Assets/Images/Club1.jpeg",
+    "clubImage": "Images/Club1.jpeg",
     "MeetDay": ["M", "W"],
     "MeetTime": "6-7",
     "clubDesc": "We are a group of people passionate about robotics. Founded in 2022, we are the largest student-run robotics organization at WashU. Join a thriving community – our WURC family has grown to include over 100 members! In addition to self-driven projects and robotics competitions, we foster partnerships with innovative robotics startups and companies.",

@@ -64,7 +64,7 @@ const CareerExplorer = () => {
             {/* Header Banner */}
             <div className="relative h-80 overflow-hidden">
                 <img
-                    src="../../public/images/banner.png"
+                    src="/images/banner.png"
                     alt="Career Explorer Banner"
                     className="absolute inset-0 w-full h-full object-cover"
                 />
