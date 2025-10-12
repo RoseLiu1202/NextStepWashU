@@ -28,7 +28,7 @@ const Navigation = () => {
                 {/* Logo - Left Edge */}
                 <Link to="/" className="flex items-center group">
                     <img
-                        src="../../public/images/Logo.png"
+                        src="/images/Logo.png"
                         alt="Next Step"
                         className="h-10 w-auto transition-transform group-hover:scale-105"
                     />

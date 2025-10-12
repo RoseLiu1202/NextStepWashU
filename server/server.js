@@ -10,7 +10,19 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
 });
 
-app.use(cors());
+// Configure CORS to allow your frontend
+app.use(cors({
+    origin: [
+        'http://localhost:5173',           // Local development
+        'http://localhost:3000',           // Alternative local port
+        'https://next-step-wash-u-iz85.vercel.app/', // Replace with your actual Vercel URL
+        'https://*.vercel.app'             // Allow all Vercel preview deployments
+    ],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
 
 // Chat endpoint
